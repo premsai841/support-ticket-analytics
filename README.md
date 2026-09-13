@@ -1,13 +1,14 @@
 # Support Ticket Analytics
 
-> A support-operations analytics project for measuring ticket volume, SLA performance, resolution time, backlog, and agent workload.
+> A support-operations portfolio project for turning ticket-level data into practical service metrics and workload insights.
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-analysis-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+## Career context
 
-## Purpose
+This project supports my Customer Support and Customer Success career focus. It reflects areas from my professional background such as customer issue handling, SLA awareness, escalation management, documentation, reporting, and service improvement.
 
-Support teams need reliable operational metrics before they can improve customer experience. This project turns ticket-level data into a compact weekly performance report.
+## Business problem
+
+Support teams need reliable operational metrics before they can improve customer experience. This project converts ticket-level information into a compact performance report covering backlog, SLA, resolution time, categories, and workload.
 
 ## Metrics
 
@@ -19,6 +20,22 @@ Support teams need reliable operational metrics before they can improve customer
 - Category distribution
 - Agent workload
 
+## Workflow
+
+```text
+Ticket data
+    ↓
+Validate and process records
+    ↓
+Calculate service metrics
+    ↓
+Review SLA and backlog
+    ↓
+Identify workload patterns
+    ↓
+Generate support report
+```
+
 ## Structure
 
 ```text
@@ -29,17 +46,21 @@ support-ticket-analytics/
 └── README.md
 ```
 
-## Run
+## Run locally
 
 ```bash
 pip install -r requirements.txt
 python src/analyze_tickets.py
 ```
 
+## Technical learning
+
+The implementation uses Python and Pandas as learning tools for structured reporting. I am not presenting this project as professional software-development experience; the focus is the support-operations problem and the analytical workflow.
+
 ## Scope
 
-Uses synthetic data for demonstration. No real customer or company information is included.
+Synthetic data only. No real customer, company, or support-ticket information is included.
 
 ## Author
 
-**Prem Sai Bachchala** — Customer Support / Customer Success analytics portfolio project.
+**Prem Sai Bachchala** — Customer Support / Customer Success / Operations portfolio.
