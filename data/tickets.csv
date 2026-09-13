@@ -1,0 +1,11 @@
+ticket_id,agent,category,priority,status,created_date,resolved_hours,sla_hours
+T001,Asha,Login,High,Resolved,2026-08-01,5,8
+T002,Ravi,Billing,Medium,Resolved,2026-08-01,19,24
+T003,Asha,Technical,High,Resolved,2026-08-02,14,8
+T004,Neha,Account,Low,Open,2026-08-02,,48
+T005,Ravi,Technical,Medium,Resolved,2026-08-03,20,24
+T006,Neha,Login,High,Resolved,2026-08-03,6,8
+T007,Asha,Billing,Medium,Open,2026-08-04,,24
+T008,Ravi,Account,Low,Resolved,2026-08-04,31,48
+T009,Neha,Technical,High,Resolved,2026-08-05,7,8
+T010,Asha,Login,Medium,Resolved,2026-08-05,18,24
